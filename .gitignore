@@ -105,3 +105,7 @@ venv.bak/
 
 # generated html
 *.html
+
+# log files generated from wyag
+*.dot
+*.dot.pdf
