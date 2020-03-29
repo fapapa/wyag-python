@@ -197,7 +197,7 @@ exact type depends on the object."""
     path = repo_file(repo, "objects", sha[0:2], sha[2:])
 
     with open(path, "rb") as f:
-        raw = zlib.decompress(f.read)
+        raw = zlib.decompress(f.read())
 
         # Read object type
         x = raw.find(b' ')
